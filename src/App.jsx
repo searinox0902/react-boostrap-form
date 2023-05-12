@@ -6,15 +6,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 //  Components
 import NavbarComponent from './components/navbar';
-import Home from  './components/Home'
+import Home from  './components/Home';
+import DataComponent from './components/DataComponent';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>  
       <NavbarComponent/>
       <Home/>
+      <DataComponent />
     </>
   )
 }
