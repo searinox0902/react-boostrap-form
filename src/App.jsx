@@ -5,7 +5,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //  Components
-import NavbarComponent from './components/navbar';
+import NavbarComponent from './components/NavbarComponent';
 import Home from  './components/Home';
 import DataComponent from './components/DataComponent';
 
